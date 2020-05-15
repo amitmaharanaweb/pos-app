@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { KitchendashboardComponent } from './kitchendashboard/kitchendashboard.component';
 import { BillingdashboardComponent } from './billingdashboard/billingdashboard.component';
-import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
+    HeaderComponent,
     AppComponent,
     KitchendashboardComponent,
     BillingdashboardComponent,
-    CustomerdashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -22,3 +22,5 @@ import { CustomerdashboardComponent } from './customerdashboard/customerdashboar
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

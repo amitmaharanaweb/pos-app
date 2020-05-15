@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerdashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor() {console.log('customer dashboard comp') }
 
-  ngOnInit() {
+  ngOnInit() {console.log('customer dashboard comp')
   }
 
 }
